@@ -1,0 +1,25 @@
+.FlagList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;    
+}
+
+.FlagItem {
+    position: relative;
+}
+
+.FlagItem.Selectable {
+    cursor: pointer;
+}
+
+.FlagName {
+    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-default);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    max-width: 100px;
+}

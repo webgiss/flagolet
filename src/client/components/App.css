@@ -1,0 +1,41 @@
+body {
+    --color-panel-gradient-0: #ffffff;
+    --color-panel-gradient-1: #f8f8f8;
+    --color-panel-gradient-2: #e8e8e8;
+    --color-panel-gradient-3: #dddddd;
+    --color-panel-border-top: #cccccc;
+    --color-panel-border-bottom: #000000;
+    --color-panel-border-left: #bbbbbb;
+    --color-panel-border-right: #888888;
+    --radius-panel-border: 10px;
+    --color-panel-inset-top: #888888;
+    --color-panel-inset-bottom: #eeeeee;
+    --color-panel-inset-right: #dddddd;
+    --color-panel-inset-left: #aaaaaa;
+
+    --color-text: #303030;
+    --color-background: #ffffff;
+}
+
+body .dark {
+    --color-panel-gradient-0: #ffffff;
+    --color-panel-gradient-1: #f8f8f8;
+    --color-panel-gradient-2: #e8e8e8;
+    --color-panel-gradient-3: #dddddd;
+    --color-panel-border-top: #cccccc;
+    --color-panel-border-bottom: #000000;
+    --color-panel-border-left: #bbbbbb;
+    --color-panel-border-right: #888888;
+    --radius-panel-border: 10px;
+    --color-panel-inset-top: #888888;
+    --color-panel-inset-bottom: #eeeeee;
+    --color-panel-inset-right: #dddddd;
+    --color-panel-inset-left: #aaaaaa;
+
+    --color-text: #e0e0e0;
+    --color-background: #000000;
+}
+
+body {
+    --font-default: 'Calibri', 'Helvetica', 'Arial', sans-serif;
+}
