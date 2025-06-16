@@ -31,3 +31,4 @@ export const UNION_JACK = 'union-jack';
 export const MAPLE_LEAF = 'maple-leaf';
 export const PAN_ARAB_COLORS = 'pan-arab-colors';
 export const LION = 'lion';
+export const DECORATION = 'decoration';

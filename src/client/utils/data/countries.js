@@ -1,4 +1,5 @@
-import { NOT_RECTANGULAR, SUN, MOON, VERTICAL_STRIPES, SERRATED, WRITINGS, SQUARE, CROSS, EMBLEM, HORIZONTAL_STRIPES, CIRCLE, BACKDIAGONAL, BIRD, ANIMAL, STAR, DIAGONAL, NORDIC_CROSS, EAGLE, LOSANGE, TRIANGLE, PANAFRICAN_COLORS, DRAGON, SHIELD, TREE, BOOK, GUN, QUARTERED, DIAMOND, CROWN, UNION_JACK, MAPLE_LEAF, PAN_ARAB_COLORS, LION } from "../constants/flagTags";
+import { UnionJack } from "@/components/FlagList/index.stories";
+import { NOT_RECTANGULAR, SUN, MOON, VERTICAL_STRIPES, SERRATED, WRITINGS, SQUARE, CROSS, EMBLEM, HORIZONTAL_STRIPES, CIRCLE, BACKDIAGONAL, BIRD, ANIMAL, STAR, DIAGONAL, NORDIC_CROSS, EAGLE, LOSANGE, TRIANGLE, PANAFRICAN_COLORS, DRAGON, SHIELD, TREE, BOOK, GUN, QUARTERED, DIAMOND, CROWN, UNION_JACK, MAPLE_LEAF, PAN_ARAB_COLORS, LION, DECORATION } from "../constants/flagTags";
 import { COUNTRY } from "../constants/flagType";
 
 export const countries = [
@@ -15,7 +16,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Népal",
             },
             ratio: 328 / 400,
-            tags: [NOT_RECTANGULAR, SUN, MOON],
+            tags: [NOT_RECTANGULAR, SUN, MOON, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Nepal",
@@ -115,7 +116,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Afghanistan",
             },
             ratio: 2,
-            tags: [WRITINGS]
+            tags: [WRITINGS, DECORATION]
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Afghanistan",
@@ -140,7 +141,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_et_armoiries_de_la_Suisse",
             },
             ratio: 1,
-            tags: [SQUARE, CROSS],
+            tags: [SQUARE, CROSS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Switzerland",
@@ -165,7 +166,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Vatican",
             },
             ratio: 1,
-            tags: [SQUARE, EMBLEM, VERTICAL_STRIPES],
+            tags: [SQUARE, EMBLEM, VERTICAL_STRIPES, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Vatican_City",
@@ -189,7 +190,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Niger",
             },
             ratio: 7 / 6,
-            tags: [HORIZONTAL_STRIPES, CIRCLE],
+            tags: [HORIZONTAL_STRIPES, CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Niger",
@@ -240,7 +241,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Danemark",
             },
             ratio: 37 / 28,
-            tags: [NORDIC_CROSS],
+            tags: [NORDIC_CROSS, CROSS],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Denmark",
@@ -290,7 +291,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Papouasie-Nouvelle-Guinée",
             },
             ratio: 4 / 3,
-            tags: [BACKDIAGONAL, STAR, BIRD, ANIMAL],
+            tags: [BACKDIAGONAL, STAR, BIRD, ANIMAL, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Papua_New_Guinea",
@@ -311,7 +312,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_république_démocratique_du_Congo",
             },
             ratio: 4 / 3,
-            tags: [DIAGONAL, STAR],
+            tags: [DIAGONAL, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
@@ -336,7 +337,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Saint-Marin",
             },
             ratio: 4 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/San_Marino",
@@ -361,7 +362,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_d'Israël",
             },
             ratio: 11 / 8,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Israel",
@@ -386,7 +387,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Norvège",
             },
             ratio: 11 / 8,
-            tags: [NORDIC_CROSS],
+            tags: [NORDIC_CROSS, CROSS],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Norway",
@@ -411,7 +412,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Islande",
             },
             ratio: 25 / 18,
-            tags: [NORDIC_CROSS],
+            tags: [NORDIC_CROSS, CROSS],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Iceland",
@@ -436,7 +437,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Albanie",
             },
             ratio: 7 / 5,
-            tags: [EMBLEM, EAGLE, ANIMAL],
+            tags: [EMBLEM, EAGLE, ANIMAL, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Albania",
@@ -461,7 +462,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_d'Andorre",
             },
             ratio: 10 / 7,
-            tags: [VERTICAL_STRIPES, EMBLEM],
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Andorra",
@@ -486,7 +487,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Brésil",
             },
             ratio: 10 / 7,
-            tags: [LOSANGE, EMBLEM, STAR, WRITINGS],
+            tags: [LOSANGE, EMBLEM, STAR, WRITINGS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Brazil",
@@ -561,7 +562,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Algérie",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, CIRCLE],
+            tags: [VERTICAL_STRIPES, CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Algeria",
@@ -586,7 +587,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Angola",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, STAR],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Angola",
@@ -607,7 +608,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_d'Antigua-et-Barbuda",
             },
             ratio: 3 / 2,
-            tags: [SUN],
+            tags: [SUN, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
@@ -632,7 +633,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Arabie_saoudite",
             },
             ratio: 3 / 2,
-            tags: [WRITINGS],
+            tags: [WRITINGS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Saudi_Arabia",
@@ -678,7 +679,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Barbade",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, EMBLEM],
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Barbados",
@@ -699,7 +700,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Belize",
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Belize",
@@ -749,7 +750,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Bhoutan",
             },
             ratio: 3 / 2,
-            tags: [DIAGONAL, DRAGON, ANIMAL],
+            tags: [DIAGONAL, DRAGON, ANIMAL, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Bhutan",
@@ -774,7 +775,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Myanmar",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Myanmar",
@@ -819,7 +820,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Burkina_Faso",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS],
+            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Burkina_Faso",
@@ -844,7 +845,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Cameroun",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, STAR, PANAFRICAN_COLORS],
+            tags: [VERTICAL_STRIPES, STAR, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Cameroon",
@@ -869,7 +870,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Cap-Vert",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Cape_Verde",
@@ -894,7 +895,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Chili",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Chile",
@@ -919,7 +920,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_République_populaire_de_Chine",
             },
             ratio: 3 / 2,
-            tags: [STAR],
+            tags: [STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/China",
@@ -943,7 +944,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Chypre",
             },
             ratio: 3 / 2,
-            tags: [EMBLEM],
+            tags: [EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Cyprus",
@@ -993,7 +994,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Corée_du_Sud",
             },
             ratio: 3 / 2,
-            tags: [EMBLEM, CIRCLE],
+            tags: [EMBLEM, CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/South_Korea",
@@ -1043,7 +1044,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Djibouti",
             },
             ratio: 3 / 2,
-            tags: [TRIANGLE, STAR],
+            tags: [TRIANGLE, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Djibouti",
@@ -1068,7 +1069,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Égypte",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, EAGLE, ANIMAL],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, EAGLE, ANIMAL, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Egypt",
@@ -1093,7 +1094,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Équateur",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Ecuador",
@@ -1118,7 +1119,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Espagne",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Spain",
@@ -1164,7 +1165,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Géorgie",
             },
             ratio: 3 / 2,
-            tags: [CROSS],
+            tags: [CROSS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Georgia_(country)",
@@ -1189,7 +1190,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Ghana",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS],
+            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Ghana",
@@ -1214,7 +1215,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Grèce",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, CROSS],
+            tags: [HORIZONTAL_STRIPES, CROSS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Greece",
@@ -1263,7 +1264,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Guinée_équatoriale",
             },
             ratio: 3 / 2,
-            tags: [TRIANGLE, EMBLEM, HORIZONTAL_STRIPES],
+            tags: [TRIANGLE, EMBLEM, HORIZONTAL_STRIPES, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Equatorial_Guinea",
@@ -1288,7 +1289,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Inde",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/India",
@@ -1339,7 +1340,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Irak",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, WRITINGS, PAN_ARAB_COLORS],
+            tags: [HORIZONTAL_STRIPES, WRITINGS, PAN_ARAB_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Iraq",
@@ -1385,7 +1386,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Japon",
             },
             ratio: 3 / 2,
-            tags: [CIRCLE],
+            tags: [CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Japan",
@@ -1410,7 +1411,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Kenya",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, SHIELD],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, SHIELD, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Kenya",
@@ -1435,7 +1436,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Laos",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, CIRCLE],
+            tags: [HORIZONTAL_STRIPES, CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Laos",
@@ -1460,7 +1461,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Lesotho",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Lesotho",
@@ -1486,7 +1487,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Liban",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, TREE],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, TREE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Lebanon",
@@ -1535,7 +1536,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Malawi",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, SUN],
+            tags: [HORIZONTAL_STRIPES, SUN, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Malawi",
@@ -1560,7 +1561,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Maldives",
             },
             ratio: 3 / 2,
-            tags: [MOON],
+            tags: [MOON, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Maldives",
@@ -1610,7 +1611,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Malte",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, EMBLEM],
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Malta",
@@ -1635,7 +1636,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Maroc",
             },
             ratio: 3 / 2,
-            tags: [STAR],
+            tags: [STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Morocco",
@@ -1687,7 +1688,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Mauritanie",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR, MOON, PANAFRICAN_COLORS],
+            tags: [HORIZONTAL_STRIPES, STAR, MOON, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Mauritania",
@@ -1712,7 +1713,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Mozambique",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, BOOK, GUN, STAR, TRIANGLE],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, BOOK, GUN, STAR, TRIANGLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Mozambique",
@@ -1738,7 +1739,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Namibie"
             },
             ratio: 3 / 2,
-            tags: [DIAGONAL, SUN]
+            tags: [DIAGONAL, SUN, DECORATION]
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Namibia",
@@ -1763,7 +1764,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l'Ouganda",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, CIRCLE, BIRD],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, CIRCLE, BIRD, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Uganda",
@@ -1788,7 +1789,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Pakistan",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, STAR, MOON],
+            tags: [VERTICAL_STRIPES, STAR, MOON, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Pakistan",
@@ -1813,7 +1814,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Panama",
             },
             ratio: 3 / 2,
-            tags: [QUARTERED, STAR],
+            tags: [QUARTERED, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Panama",
@@ -1889,7 +1890,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Portugal",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, EMBLEM],
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Portugal",
@@ -1911,7 +1912,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_R%C3%A9publique_centrafricaine"
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR]
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -1934,7 +1935,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_R%C3%A9publique_dominicaine",
             },
             ratio: 3 / 2,
-            tags: [CROSS, EMBLEM],
+            tags: [CROSS, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Dominican_Republic",
@@ -2055,7 +2056,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Rwanda",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, SUN],
+            tags: [HORIZONTAL_STRIPES, SUN, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Rwanda",
@@ -2080,7 +2081,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Saint-Christophe-et-Niévès",
             },
             ratio: 3 / 2,
-            tags: [DIAGONAL, STAR],
+            tags: [DIAGONAL, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
@@ -2101,7 +2102,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Saint-Vincent-et-les-Grenadines",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, DIAMOND],
+            tags: [VERTICAL_STRIPES, DIAMOND, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
@@ -2126,7 +2127,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Sénégal",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, STAR, PANAFRICAN_COLORS],
+            tags: [VERTICAL_STRIPES, STAR, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Senegal",
@@ -2151,7 +2152,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Serbie",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Serbia",
@@ -2205,7 +2206,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Singapour",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, MOON, STAR],
+            tags: [HORIZONTAL_STRIPES, MOON, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Singapore",
@@ -2233,7 +2234,7 @@ export const countries = [
             ratio:
                 3 / 2,
             tags:
-                [HORIZONTAL_STRIPES, EMBLEM]
+                [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -2259,9 +2260,8 @@ export const countries = [
                 en: "https://en.wikipedia.org/wiki/Flag_of_Somalia",
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Somalie"
             },
-            ratio:
-                3 / 2,
-            tags: [STAR],
+            ratio: 3 / 2,
+            tags: [STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Somalia",
@@ -2286,7 +2286,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Suriname",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Suriname",
@@ -2312,7 +2312,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Eswatini"
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, SHIELD]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, SHIELD, DECORATION]
         },
         wikipedia:
         {
@@ -2338,7 +2338,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Syrie",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR, PAN_ARAB_COLORS],
+            tags: [HORIZONTAL_STRIPES, STAR, PAN_ARAB_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Syria",
@@ -2438,7 +2438,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Tunisie",
             },
             ratio: 3 / 2,
-            tags: [CIRCLE, STAR, MOON],
+            tags: [CIRCLE, STAR, MOON, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Tunisia",
@@ -2459,7 +2459,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Turkm%C3%A9nistan",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, EMBLEM, MOON, STAR],
+            tags: [VERTICAL_STRIPES, EMBLEM, MOON, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Turkmenistan",
@@ -2484,7 +2484,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Turquie",
             },
             ratio: 3 / 2,
-            tags: [MOON, STAR],
+            tags: [MOON, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Turkey",
@@ -2530,7 +2530,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Uruguay",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, SUN],
+            tags: [HORIZONTAL_STRIPES, SUN, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Uruguay",
@@ -2555,7 +2555,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Venezuela",
             },
             ratio: 3 / 2,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Venezuela",
@@ -2580,7 +2580,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Vi%C3%AAt_Nam",
             },
             ratio: 3 / 2,
-            tags: [STAR],
+            tags: [STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Vietnam",
@@ -2630,7 +2630,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Zambie",
             },
             ratio: 3 / 2,
-            tags: [VERTICAL_STRIPES, EMBLEM, EAGLE, ANIMAL],
+            tags: [VERTICAL_STRIPES, EMBLEM, EAGLE, ANIMAL, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Zambia",
@@ -2681,7 +2681,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Cambodge"
             },
             ratio: 25 / 16,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -2708,7 +2708,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Argentine"
             },
             ratio: 8 / 5,
-            tags: [HORIZONTAL_STRIPES, SUN]
+            tags: [HORIZONTAL_STRIPES, SUN, DECORATION]
         },
         wikipedia:
         {
@@ -2735,7 +2735,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Guatemala"
             },
             ratio: 8 / 5,
-            tags: [VERTICAL_STRIPES, EMBLEM]
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -2761,7 +2761,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Palaos",
             },
             ratio: 8 / 5,
-            tags: [CIRCLE],
+            tags: [CIRCLE, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Palau",
@@ -2811,7 +2811,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Su%C3%A8de",
             },
             ratio: 8 / 5,
-            tags: [NORDIC_CROSS],
+            tags: [NORDIC_CROSS, CROSS],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Sweden",
@@ -2836,7 +2836,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Togo",
             },
             ratio: 1.618033988749895, // Golden ratio
-            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS],
+            tags: [HORIZONTAL_STRIPES, STAR, PANAFRICAN_COLORS, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Togo",
@@ -2861,7 +2861,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Finlande",
             },
             ratio: 18 / 11,
-            tags: [NORDIC_CROSS],
+            tags: [NORDIC_CROSS, CROSS],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Finland",
@@ -2912,7 +2912,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Bahre%C3%AFn"
             },
             ratio: 5 / 3,
-            tags: [SERRATED]
+            tags: [VERTICAL_STRIPES, SERRATED]
         },
         wikipedia:
         {
@@ -2940,7 +2940,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Bangladesh"
             },
             ratio: 5 / 3,
-            tags: [CIRCLE]
+            tags: [CIRCLE, DECORATION]
         },
         wikipedia:
         {
@@ -2992,7 +2992,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Burundi"
             },
             ratio: 5 / 3,
-            tags: [DIAGONAL, BACKDIAGONAL, STAR]
+            tags: [DIAGONAL, BACKDIAGONAL, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3019,7 +3019,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Comores"
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, TRIANGLE, STAR, MOON, DECORATION]
         },
         wikipedia:
         {
@@ -3068,7 +3068,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Grenade",
             },
             ratio: 5 / 3,
-            tags: [DIAGONAL, BACKDIAGONAL, STAR],
+            tags: [DIAGONAL, BACKDIAGONAL, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Grenada",
@@ -3121,7 +3121,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_d%27Ha%C3%AFti"
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -3148,7 +3148,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Kirghizistan"
             },
             ratio: 5 / 3,
-            tags: [EMBLEM, SUN]
+            tags: [EMBLEM, SUN, DECORATION]
         },
         wikipedia:
         {
@@ -3175,7 +3175,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Liechtenstein"
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, CROWN]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, CROWN, DECORATION]
         },
         wikipedia:
         {
@@ -3256,7 +3256,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Nicaragua"
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -3282,7 +3282,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Royaume-Uni",
             },
             ratio: 5 / 3,
-            tags: [HORIZONTAL_STRIPES, DIAGONAL],
+            tags: [UNION_JACK],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/United_Kingdom",
@@ -3334,7 +3334,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Iran",
             },
             ratio: 7 / 4,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Iran",
@@ -3359,7 +3359,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Mexique",
             },
             ratio: 7 / 4,
-            tags: [VERTICAL_STRIPES, EMBLEM],
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Mexico",
@@ -3384,7 +3384,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Salvador",
             },
             ratio: 335 / 189,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/El_Salvador",
@@ -3409,7 +3409,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Paraguay",
             },
             ratio: 20 / 11,
-            tags: [HORIZONTAL_STRIPES, EMBLEM],
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Paraguay",
@@ -3434,7 +3434,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Vanuatu",
             },
             ratio: 36 / 19,
-            tags: [TRIANGLE, EMBLEM],
+            tags: [TRIANGLE, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Vanuatu",
@@ -3459,7 +3459,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%89tats-Unis",
             },
             ratio: 19 / 10,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/United_States",
@@ -3484,7 +3484,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Liberia",
             },
             ratio: 19 / 10,
-            tags: [HORIZONTAL_STRIPES, STAR],
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Liberia",
@@ -3510,7 +3510,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%8Eles_Marshall"
             },
             ratio: 19 / 10,
-            tags: [DIAGONAL, STAR]
+            tags: [DIAGONAL, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3538,7 +3538,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%89tats_f%C3%A9d%C3%A9r%C3%A9s_de_Micron%C3%A9sie"
             },
             ratio: 19 / 10,
-            tags: [STAR]
+            tags: [STAR, DECORATION]
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
@@ -3591,7 +3591,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Australie"
             },
             ratio: 2 / 1,
-            tags: [UNION_JACK, STAR]
+            tags: [UNION_JACK, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3618,7 +3618,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Azerba%C3%AFdjan"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, MOON, STAR]
+            tags: [HORIZONTAL_STRIPES, MOON, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3671,7 +3671,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Bi%C3%A9lorussie",
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES],
+            tags: [HORIZONTAL_STRIPES, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Belarus",
@@ -3696,7 +3696,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Bosnie-Herz%C3%A9govine",
             },
             ratio: 2 / 1,
-            tags: [STAR],
+            tags: [STAR, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
@@ -3721,7 +3721,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Brunei",
             },
             ratio: 2 / 1,
-            tags: [BACKDIAGONAL, EMBLEM],
+            tags: [BACKDIAGONAL, EMBLEM, DECORATION],
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/Brunei",
@@ -3743,7 +3743,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Canada"
             },
             ratio: 2 / 1,
-            tags: [VERTICAL_STRIPES, EMBLEM, MAPLE_LEAF]
+            tags: [VERTICAL_STRIPES, EMBLEM, MAPLE_LEAF, DECORATION]
         },
         wikipedia:
         {
@@ -3770,7 +3770,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Cor%C3%A9e_du_Nord"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, CIRCLE, STAR]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, CIRCLE, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3797,7 +3797,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Croatie"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -3824,7 +3824,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Cuba"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR]
+            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3851,7 +3851,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Dominique"
             },
             ratio: 2 / 1,
-            tags: [CROSS, EMBLEM, STAR]
+            tags: [CROSS, EMBLEM, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3901,7 +3901,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27%C3%89rythr%C3%A9e"
             },
             ratio: 2 / 1,
-            tags: [TRIANGLE, EMBLEM]
+            tags: [TRIANGLE, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -3928,7 +3928,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27%C3%89thiopie"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, STAR]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -3955,7 +3955,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Fidji"
             },
             ratio: 2 / 1,
-            tags: [UNION_JACK, EMBLEM]
+            tags: [UNION_JACK, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -3982,7 +3982,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Guin%C3%A9e-Bissau"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, STAR]
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4009,7 +4009,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Honduras"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, STAR]
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4082,7 +4082,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%8Eles_Cook"
             },
             ratio: 2,
-            tags: [UNION_JACK, STAR]
+            tags: [UNION_JACK, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4132,7 +4132,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Jordanie"
             },
             ratio: 2,
-            tags: [TRIANGLE, HORIZONTAL_STRIPES, PAN_ARAB_COLORS]
+            tags: [TRIANGLE, HORIZONTAL_STRIPES, PAN_ARAB_COLORS, DECORATION]
         },
         wikipedia:
         {
@@ -4159,7 +4159,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Kazakhstan"
             },
             ratio: 2,
-            tags: [EMBLEM, SUN, EAGLE, ANIMAL]
+            tags: [EMBLEM, SUN, EAGLE, ANIMAL, DECORATION]
         },
         wikipedia:
         {
@@ -4186,7 +4186,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Kiribati"
             },
             ratio: 2,
-            tags: [SUN, BIRD, ANIMAL]
+            tags: [SUN, BIRD, ANIMAL, DECORATION]
         },
         wikipedia:
         {
@@ -4267,7 +4267,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Libye"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, MOON, STAR, PAN_ARAB_COLORS]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, MOON, STAR, PAN_ARAB_COLORS, DECORATION]
         },
         wikipedia:
         {
@@ -4294,7 +4294,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Mac%C3%A9doine_du_Nord"
             },
             ratio: 2,
-            tags: [SUN]
+            tags: [SUN, DECORATION]
         },
         wikipedia:
         {
@@ -4321,7 +4321,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Malaisie"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, STAR, MOON, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, STAR, MOON, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4348,7 +4348,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Moldavie"
             },
             ratio: 2,
-            tags: [VERTICAL_STRIPES, EMBLEM]
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4371,7 +4371,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Mongolie"
             },
             ratio: 2,
-            tags: [VERTICAL_STRIPES, EMBLEM]
+            tags: [VERTICAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4394,7 +4394,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Mont%C3%A9n%C3%A9gro"
             },
             ratio: 2,
-            tags: [EAGLE, ANIMAL, EMBLEM]
+            tags: [EAGLE, ANIMAL, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4421,7 +4421,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Nauru"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, STAR]
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4472,7 +4472,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Niue"
             },
             ratio: 2,
-            tags: [UNION_JACK, STAR]
+            tags: [UNION_JACK, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4495,7 +4495,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Nouvelle-Z%C3%A9lande"
             },
             ratio: 2,
-            tags: [UNION_JACK, STAR]
+            tags: [UNION_JACK, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4522,7 +4522,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_d%27Oman"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4549,7 +4549,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_l%27Ouzb%C3%A9kistan"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, MOON, STAR]
+            tags: [HORIZONTAL_STRIPES, MOON, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4602,7 +4602,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Philippines"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, SUN]
+            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, SUN, DECORATION]
         },
         wikipedia:
         {
@@ -4625,7 +4625,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Sainte-Lucie"
             },
             ratio: 2,
-            tags: [EMBLEM]
+            tags: [EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4652,7 +4652,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Salomon"
             },
             ratio: 2,
-            tags: [DIAGONAL, STAR]
+            tags: [DIAGONAL, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4679,7 +4679,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Samoa"
             },
             ratio: 2,
-            tags: [STAR]
+            tags: [STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4706,7 +4706,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_Sao_Tom%C3%A9-et-Principe",
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, PANAFRICAN_COLORS]
+            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, PANAFRICAN_COLORS, DECORATION]
         },
         wikipedia: {
             en: "https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe",
@@ -4759,7 +4759,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Slov%C3%A9nie"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, DECORATION]
         },
         wikipedia:
         {
@@ -4813,7 +4813,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Soudan_du_Sud"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, PAN_ARAB_COLORS]
+            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, PAN_ARAB_COLORS, DECORATION]
         },
         wikipedia:
         {
@@ -4840,7 +4840,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Sri_Lanka"
             },
             ratio: 2,
-            tags: [VERTICAL_STRIPES, EMBLEM, LION, ANIMAL]
+            tags: [VERTICAL_STRIPES, EMBLEM, LION, ANIMAL, DECORATION]
         },
         wikipedia:
         {
@@ -4867,7 +4867,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Tadjikistan"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, EMBLEM, CROWN]
+            tags: [HORIZONTAL_STRIPES, EMBLEM, CROWN, DECORATION]
         },
         wikipedia:
         {
@@ -4894,7 +4894,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Timor_oriental"
             },
             ratio: 2,
-            tags: [TRIANGLE, STAR]
+            tags: [TRIANGLE, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4921,7 +4921,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Tonga"
             },
             ratio: 2,
-            tags: [CROSS]
+            tags: [CROSS, DECORATION]
         },
         wikipedia:
         {
@@ -4944,7 +4944,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_des_Tuvalu"
             },
             ratio: 2,
-            tags: [UNION_JACK, STAR]
+            tags: [UNION_JACK, STAR, DECORATION]
         },
         wikipedia:
         {
@@ -4971,7 +4971,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_du_Zimbabwe"
             },
             ratio: 2,
-            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, BIRD, ANIMAL]
+            tags: [HORIZONTAL_STRIPES, TRIANGLE, STAR, BIRD, ANIMAL, DECORATION]
         },
         wikipedia:
         {
@@ -4983,4 +4983,3 @@ export const countries = [
 ]
 
 window.countries = countries;
-
