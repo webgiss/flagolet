@@ -22,7 +22,7 @@ export default createComponent(({filename, big}) => {
             <div className='FlagInner'>
                 <img
                     className='FlagImage'
-                    src={`/flags/${filename}`}
+                    src={`${__BASE_PATH__}flags/${filename}`}
                 />
             </div>
         </div>
