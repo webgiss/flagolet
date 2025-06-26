@@ -14,7 +14,7 @@ export default createComponent(({filename, big}) => {
 
     // const xxyy = useXXYY()
 
-    // const onAction = () => dispatch(()=>actions.none.doSomething({...}))
+    // const onAction = () => dispatch(actions.none.doSomething({...}))
     // const onClick = getOnClick(dispatch, actions.none.doSomething)
 
     return (

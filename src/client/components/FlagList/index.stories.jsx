@@ -18,6 +18,8 @@ const getFlags = (lang, countries) => {
         filename: country.flag.file,
         name: country.name[lang],
         code: country.code,
+        wikipedia: country?.wikipedia?.[lang],
+        wikipediaFlag: country?.flag?.wikipedia?.[lang],
         tags: country.flag.tags,
     })).sort((a, b) => {
         if (a.name < b.name) return -1;
@@ -26,7 +28,7 @@ const getFlags = (lang, countries) => {
     })
 }
 
-const getSubsetFlags = (tagsIncluded, tagsExcluded) => getFlags('fr', filterByTags(countries, tagsIncluded, tagsExcluded));
+const getSubsetFlags = (tagsIncluded, tagsExcluded) => getFlags('fr', filterByTags(window.countries || [], tagsIncluded, tagsExcluded));
 
 window.getSubsetFlags = getSubsetFlags;
 
@@ -40,50 +42,71 @@ export default {
 
 export const Default = {
     args: {
-        flags: getFlags('fr', countries),
+        flags: getFlags('fr', window.countries || []),
     },
 }
 
 export const Selectable = {
     args: {
-        flags: getFlags('fr', countries),
+        flags: getFlags('fr', window.countries || []),
         onFlagSelect: fn(),
     },
 }
 
 export const English = {
     args: {
-        flags: getFlags('en', countries),
+        flags: getFlags('en', window.countries || []),
     },
 }
 
 export const Triangles = {
     args: {
-        flags: getSubsetFlags([TRIANGLE], [])
+        flags: getSubsetFlags([
+            TRIANGLE
+        ], [
+        ])
     },
 }
 
 export const PanafricanColors = {
     args: {
-        flags: getSubsetFlags([PANAFRICAN_COLORS], [])
+        flags: getSubsetFlags([
+            PANAFRICAN_COLORS
+        ], [
+        ])
     },
 }
 
 export const PanArabColors = {
     args: {
-        flags: getSubsetFlags([PAN_ARAB_COLORS], [])
+        flags: getSubsetFlags([
+            PAN_ARAB_COLORS
+        ], [
+        ])
     },
 }
 
 export const HorizontalStripesWithoutDecoration = {
     args: {
-        flags: getSubsetFlags([HORIZONTAL_STRIPES], [TRIANGLE, DECORATION])
+        flags: getSubsetFlags([
+            HORIZONTAL_STRIPES
+        ], [
+            TRIANGLE,
+            DECORATION
+        ])
     },
 }
 
 export const HorizontalStripesWithDecoration = {
     args: {
-        flags: getSubsetFlags([HORIZONTAL_STRIPES, DECORATION], [TRIANGLE, PANAFRICAN_COLORS, PAN_ARAB_COLORS])
+        flags: getSubsetFlags([
+            HORIZONTAL_STRIPES,
+            DECORATION
+        ], [
+            TRIANGLE,
+            PANAFRICAN_COLORS,
+            PAN_ARAB_COLORS
+        ])
     },
 }
 
@@ -138,17 +161,17 @@ export const BackDiagonal = {
 export const OtherTags = {
     args: {
         flags: getSubsetFlags([], [
-            TRIANGLE, 
-            HORIZONTAL_STRIPES, 
-            VERTICAL_STRIPES, 
-            PANAFRICAN_COLORS, 
-            PAN_ARAB_COLORS, 
-            CROSS, 
-            NORDIC_CROSS, 
-            MOON, 
-            STAR, 
-            DIAGONAL, 
-            BACKDIAGONAL, 
+            TRIANGLE,
+            HORIZONTAL_STRIPES,
+            VERTICAL_STRIPES,
+            PANAFRICAN_COLORS,
+            PAN_ARAB_COLORS,
+            CROSS,
+            NORDIC_CROSS,
+            MOON,
+            STAR,
+            DIAGONAL,
+            BACKDIAGONAL,
             UNION_JACK
         ]),
     },

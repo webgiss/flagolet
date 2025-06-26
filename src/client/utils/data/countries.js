@@ -1,4 +1,3 @@
-import { UnionJack } from "@/components/FlagList/index.stories";
 import { NOT_RECTANGULAR, SUN, MOON, VERTICAL_STRIPES, SERRATED, WRITINGS, SQUARE, CROSS, EMBLEM, HORIZONTAL_STRIPES, CIRCLE, BACKDIAGONAL, BIRD, ANIMAL, STAR, DIAGONAL, NORDIC_CROSS, EAGLE, LOSANGE, TRIANGLE, PANAFRICAN_COLORS, DRAGON, SHIELD, TREE, BOOK, GUN, QUARTERED, DIAMOND, CROWN, UNION_JACK, MAPLE_LEAF, PAN_ARAB_COLORS, LION, DECORATION } from "../constants/flagTags";
 import { COUNTRY } from "../constants/flagType";
 
@@ -3982,7 +3981,7 @@ export const countries = [
                 fr: "https://fr.wikipedia.org/wiki/Drapeau_de_la_Guin%C3%A9e-Bissau"
             },
             ratio: 2 / 1,
-            tags: [HORIZONTAL_STRIPES, STAR, DECORATION]
+            tags: [HORIZONTAL_STRIPES, STAR, DECORATION, PANAFRICAN_COLORS]
         },
         wikipedia:
         {

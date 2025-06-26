@@ -2,6 +2,10 @@
     
 }
 
+.CourseDescriptionLesson {
+    margin-inline-start: 1rem;
+}
+
 .CourseDescriptionContent,
 .CourseDescriptionLessonContent {
     margin: 0 0 1rem 1rem;

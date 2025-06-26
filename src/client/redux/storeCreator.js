@@ -1,7 +1,6 @@
-import { configureStore } from '@reduxjs/toolkit'
-
 import { reducer } from '@/redux/slices'
 import { debug_reducer } from '@/tools/debug';
+import { configureStore } from '@reduxjs/toolkit'
 
 // import addressUpdater from '@/redux/middlewares/addressUpdater';
 // import hashUpdater from '@/redux/middlewares/hashUpdater';

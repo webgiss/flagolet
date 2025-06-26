@@ -1,5 +1,7 @@
 import 'semantic-ui-css/semantic.min.css'
 import '@/components/App.css'
+import '@/components/Panel.css'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 // import { withRedux } from '@/tools/components/storybook/withReduxDecorator'
 // import store from '@/tools/components/storybook/store';

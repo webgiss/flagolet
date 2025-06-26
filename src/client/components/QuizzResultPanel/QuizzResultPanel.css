@@ -1,0 +1,60 @@
+/*
+.QuizzResultPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.QuizzResultPanel > .Flag {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.QuizzResultPanelText {
+    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-default);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+
+.QuizzResultPanelInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.QuizzResultPanelQuestion {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    color: var(--color-text);
+    font-family: var(--font-default);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;    
+}
+*/
+
+.QuizzResultPanelAnswer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.QuizzResultCorrect {
+    background-color: var(--color-success);
+}
+
+.QuizzResultIncorrect {
+    background-color: var(--color-error);
+}

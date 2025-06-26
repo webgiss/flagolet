@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
+import learning from './slice/learning';
 // plop-import-slice
 
 export const sliceList = [
+    learning,
     // plop-insert-slice
 ]
 
