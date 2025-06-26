@@ -10,6 +10,7 @@ import ScreenLearning from '../ScreenLearning';
 import ScreenGuessing from '../ScreenGuessing';
 import ScreenShowingAnswer from '../ScreenShowingAnswer';
 import ScreenResults from '../ScreenResults';
+import ScreenLearningTitle from '../ScreenLearningTitle';
 // import { getOnClick } from '@/tools/components/helper';
 
 export default createComponent(() => {
@@ -23,6 +24,7 @@ export default createComponent(() => {
 
     return (
         <div className='LearningScreens'>
+            <ScreenLearningTitle />
             {screen === LEARNING && <ScreenLearning />}
             {screen === GUESSING && <ScreenGuessing />}
             {screen === SHOWING_ANSWER && <ScreenShowingAnswer />}

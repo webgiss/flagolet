@@ -78,10 +78,10 @@ export const mainCourseDef = {
         },
         {
             id: 'backdiagonal',
-            name: { en: 'Backdiagonal', fr: 'Arrière-diagonale' },
+            name: { en: 'Backdiagonal', fr: 'Contre-diagonale' },
             description: {
                 en: 'Learn flags with backdiagonal stripes.',
-                fr: 'Apprenez les drapeaux avec des bandes arrière-diagonales.',
+                fr: 'Apprenez les drapeaux avec des bandes contre-diagonales.',
             },
             includedTags: [BACKDIAGONAL],
             excludedTags: [],

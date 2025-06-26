@@ -11,7 +11,7 @@ export default createComponent(({ course, lang, onStart }) => {
         return (e) => {
             e.preventDefault();
             e.stopPropagation();
-            onStart(lang, lesson.countries);
+            onStart(lang, lesson.countries, lesson.name[lang], lesson.description[lang]);
         }
     }
     return (

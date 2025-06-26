@@ -29,6 +29,8 @@ const slice = createSlice({
         lang: 'fr',
         screen: null,
         answer: '',
+        lessonTitle: '',
+        lessonDescription: '',
         guessedAnswer: null,
         statusAnswer: null,
     },
@@ -39,10 +41,12 @@ const slice = createSlice({
         startLearning(state, action) {
             action = action || {};
             action.payload = action.payload || {};
-            let { lang, data } = action.payload;
+            let { lang, data, title, description } = action.payload;
             lang = lang || 'fr';
 
             state.lang = lang;
+            state.lessonTitle = title;
+            state.lessonDescription = description;
             state.stats.total = 0
             state.stats.correct = 0;
             state.stats.incorrect = 0;

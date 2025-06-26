@@ -20,7 +20,7 @@ export default createComponent(() => {
             <CourseDescription 
                 lang={lang}
                 course={course}
-                onStart={(lang, data) => dispatch(actions.learning.startLearning({lang, data}))}
+                onStart={(lang, data, title, description) => dispatch(actions.learning.startLearning({lang, data, title, description}))}
             />
         </div>
     )
