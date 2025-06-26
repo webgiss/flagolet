@@ -15,6 +15,7 @@ export const MainCourseFr = {
     args: {
         course: mainCourse,
         lang: 'fr',
+        onStart: fn(),
     },
 }
 
@@ -22,6 +23,7 @@ export const MainCourseEn = {
     args: {
         course: mainCourse,
         lang: 'en',
+        onStart: fn(),
     },
 }
 

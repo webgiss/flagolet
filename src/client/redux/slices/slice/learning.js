@@ -39,7 +39,7 @@ const slice = createSlice({
         startLearning(state, action) {
             action = action || {};
             action.payload = action.payload || {};
-            let { lang } = action.payload;
+            let { lang, data } = action.payload;
             lang = lang || 'fr';
 
             state.lang = lang;
@@ -48,16 +48,26 @@ const slice = createSlice({
             state.stats.incorrect = 0;
             Object.keys(state.stats.byCode).forEach(k => delete state.stats.byCode[k])
             Object.keys(state.learningData).forEach(k => state.stats.byCode[k] = 0)
-            Object.keys(state.learningData).forEach(k=>delete state.learningData[k])
+            Object.keys(state.learningData).forEach(k => delete state.learningData[k])
 
             state.learningScreen = true;
-            countries.filter(country => country.flag.tags.includes(TRIANGLE)).forEach(country => {
-                if (!state.learningData[country.code]) {
-                    state.learningData[country.code] = country;
-                }
-            })
+            if (data && data.length > 0) {
+                data.forEach(item => {
+                    const code = item.code;
+                    const country = countries.filter(country => country.code === code)[0]
+                    if (!state.learningData[code] && country) {
+                        state.learningData[code] = country;
+                    }
+                })
+            } else {
+                countries.filter(country => country.flag.tags.includes(TRIANGLE)).forEach(country => {
+                    if (!state.learningData[country.code]) {
+                        state.learningData[country.code] = country;
+                    }
+                })
+            }
             state.remainingCodes.splice(0)
-            state.remainingCodes.splice(0,0,...Object.keys(state.learningData))
+            state.remainingCodes.splice(0, 0, ...Object.keys(state.learningData))
             state.current = null;
             selectCode(state)
             state.screen = LEARNING;
@@ -72,7 +82,7 @@ const slice = createSlice({
                 state.answer = '';
                 state.guessedAnswer = null;
                 state.statusAnswer = null;
-                state.remainingCodes.splice(0,0,...Object.keys(state.learningData))
+                state.remainingCodes.splice(0, 0, ...Object.keys(state.learningData))
                 selectCode(state)
                 return;
             } else {
@@ -129,6 +139,12 @@ const slice = createSlice({
             state.stats.correct = 0;
             state.stats.incorrect = 0;
         }
+    },
+    extraReducers: (builder) => {
+        builder
+            .addCase('course/startCourse', (state, action) => {
+                state.learningScreen = false;
+            })
     },
 })
 
