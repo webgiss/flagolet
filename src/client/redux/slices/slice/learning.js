@@ -104,8 +104,10 @@ const slice = createSlice({
         applyAnswer(state, action) {
             action = action || {};
             action.payload = action.payload || {};
-            const { answer } = action.payload;
+            let { answer } = action.payload;
             if (!state.current) return;
+
+            answer = answer.trim()
 
             state.guessedAnswer = answer;
             state.stats.total += 1;

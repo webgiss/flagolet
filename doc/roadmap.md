@@ -11,4 +11,6 @@
     - Create course
     - Import course
     - Export course
+- Configure guessing mode (learning -> guessing -> results vs. guessing -> results / case sensitive or not / diacritics are important or not / autocomplétion of results or not / type or select in a list)
 
+- Support nightmode
