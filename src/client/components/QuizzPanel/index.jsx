@@ -25,7 +25,7 @@ export default createComponent(({lang, country, name, onInputChange, onValidate}
                 />
             </div>
             <form className='QuizzPanelQuestion PanelQuestion QuizzPanelForm PanelForm' onSubmit={onSubmit}>
-                <Input autoFocus className='QuizzPanelInput PanelInput' input={name} type='text' focus={true} onChange={onChange} />
+                <Input autoFocus className='QuizzPanelInput PanelInput' value={name} type='text' focus={true} onChange={onChange} />
                 <Button className='QuizzPanelButton PanelButton' type='submit' primary>Validate</Button>
             </form>
         </div>

@@ -40,7 +40,7 @@ export default createComponent(() => {
                     : null
             }
             <StepGroup
-                className='ScreenLearningTitleStepGroup'
+                className='unstackable ScreenLearningTitleStepGroup'
                 size='small'
             >
                 <Step className={classNames('ScreenLearningTitleStep',{ active: isLearning })} >

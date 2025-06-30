@@ -5,3 +5,47 @@
 .ScreenLearningTitleStep {
     width: 15rem;
 }
+
+
+@media only screen and (max-width: 42rem) {
+    .ui.steps.ScreenLearningTitleStepGroup .step:first-child {
+        padding: 1.14285714em 2em;
+        border-radius: .28571429rem .28571429rem 0 0;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup .step {
+        width: 100% !important;
+        flex-direction: column;
+        border-radius: 0;
+        padding: 1.14285714em 2em;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup {
+        display: inline-flex;
+        overflow: visible;
+        flex-direction: column;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup .step .content {
+        text-align: center;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup .step:after {
+        display: none;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup {
+        width: 15rem;
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup .step:last-child {
+    border-right: 1px solid rgba(34, 36, 38, .15);
+    }
+
+    .ui.steps.ScreenLearningTitleStepGroup {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
