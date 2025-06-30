@@ -43,7 +43,7 @@ export default createComponent(() => {
                 className='ScreenLearningTitleStepGroup'
                 size='small'
             >
-                <Step className={classNames({ active: isLearning })} >
+                <Step className={classNames('ScreenLearningTitleStep',{ active: isLearning })} >
                     <Icon name='eye' />
                     <StepContent>
                         <StepTitle className='ScreenLearningTitleStepTitle'>Learning</StepTitle>
@@ -54,7 +54,7 @@ export default createComponent(() => {
                         }
                     </StepContent>
                 </Step>
-                <Step className={classNames({ active: isGuessingOrShowingAnswer })} >
+                <Step className={classNames('ScreenLearningTitleStep',{ active: isGuessingOrShowingAnswer })} >
                     <Icon name='question' />
                     <StepContent>
                         <StepTitle className='ScreenLearningTitleStepTitle'>{isGuessing ? "Guessing" : "Answer"}</StepTitle>
@@ -65,7 +65,7 @@ export default createComponent(() => {
                         }
                     </StepContent>
                 </Step>
-                <Step className={classNames({ active: isResults })} >
+                <Step className={classNames('ScreenLearningTitleStep',{ active: isResults })} >
                     <Icon name='checkmark' />
                     <StepContent>
                         <StepTitle className='ScreenLearningTitleStepTitle'>Results</StepTitle>

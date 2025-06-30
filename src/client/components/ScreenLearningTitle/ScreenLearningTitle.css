@@ -1,3 +1,7 @@
 .ScreenLearningTitle {
-    
+    margin-block-end: 1rem;
+}
+
+.ScreenLearningTitleStep {
+    width: 15rem;
 }

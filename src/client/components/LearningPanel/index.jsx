@@ -6,7 +6,7 @@ import { Button } from 'semantic-ui-react';
 
 export default createComponent(({ lang, country, onNext }) => {
     const name = country.name[lang]
-    const longName = country.longName ? country.longName[lang] : ''
+    const longName = country.longName ? country.longName[lang] : <span>&nbsp;</span>
     console.log({onNext})
     const onClick = () => {
         onNext(country.code)
