@@ -1,13 +1,16 @@
+body {
+    --width-step: 16rem;
+}
+
 .ScreenLearningTitle {
     margin-block-end: 1rem;
 }
 
 .ScreenLearningTitleStep {
-    width: 15rem;
+    width: var(--width-step);
 }
 
-
-@media only screen and (max-width: 42rem) {
+@media only screen and (max-width: 45rem) {
     .ui.steps.ScreenLearningTitleStepGroup .step:first-child {
         padding: 1.14285714em 2em;
         border-radius: .28571429rem .28571429rem 0 0;
@@ -35,7 +38,7 @@
     }
 
     .ui.steps.ScreenLearningTitleStepGroup {
-        width: 15rem;
+        width: var(--width-step);
     }
 
     .ui.steps.ScreenLearningTitleStepGroup .step:last-child {

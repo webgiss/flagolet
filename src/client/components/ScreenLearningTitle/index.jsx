@@ -32,6 +32,7 @@ export default createComponent(() => {
 
     const onSkipLearning = () => dispatch(actions.learning.skipLearning({}))
 
+    console.log({ isLearning, isGuessing, isShowingAnswer, isGuessingOrShowingAnswer, isResults });
 
     return (
         <div className='ScreenLearningTitle'>
@@ -56,7 +57,7 @@ export default createComponent(() => {
                         }
                     </StepContent>
                 </Step>
-                <Step className={classNames('ScreenLearningTitleStep',{ active: isGuessingOrShowingAnswer })} link={isLearning} onClick={onSkipLearning}>
+                <Step className={classNames('ScreenLearningTitleStep',{ active: isGuessingOrShowingAnswer })} link={isLearning} onClick={isLearning ? onSkipLearning : null}>
                     <Icon name='question' />
                     <StepContent>
                         <StepTitle className='ScreenLearningTitleStepTitle'>{isGuessing ? "Guessing" : "Answer"}</StepTitle>
