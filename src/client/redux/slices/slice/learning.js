@@ -146,6 +146,8 @@ const slice = createSlice({
             state.stats.incorrect = 0;
         },
         skipLearning(state, action) {
+            if (state.screen !== LEARNING) return;
+            
             state.screen = GUESSING;
             state.answer = '';
             state.guessedAnswer = null;
