@@ -8,11 +8,12 @@ export const filterCountriesByTags = (countries, tagsIncluded, tagsExcluded) => 
 }
 
 export const createCourse = (countries, courseDef) => {
-    const { id, name, lessons } = courseDef;
+    const { id, name, description, lessons } = courseDef;
     const otherCodes = new Set(countries.map(country => country.code))
     const course = {
         id,
         name,
+        description,
         lessons: lessons.map(lesson => {
             const { id: lessonId, name: lessonName, description, includedTags, excludedTags } = lesson;
             const countriesDefined = lesson.countries || [];

@@ -5,6 +5,10 @@ import { createCourse } from './countrieTools';
 export const mainCourseDef = {
     id: 'main',
     name: { en: 'Main Course', fr: 'Cours Principal' },
+    description: {
+        en: '',
+        fr: '',
+    },
     lessons: [
         {
             id: 'triangle',
