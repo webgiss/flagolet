@@ -3,7 +3,7 @@ import createComponent from '@/tools/components/createComponent';
 import './ScreenLearningTitle.css'
 
 import { useDispatch } from 'react-redux'
-// import { actions } from '@/redux/slices'
+import { actions } from '@/redux/slices'
 import { useLearningRemaining, useLearningTotal, useLessonDescription, useLessonTitle, useScreen } from '@/redux/selectors/learning.js'
 import { Icon, Step, StepContent, StepDescription, StepGroup, StepTitle } from 'semantic-ui-react';
 import classNames from 'classnames';
@@ -11,7 +11,7 @@ import { GUESSING, LEARNING, RESULTS, SHOWING_ANSWER } from '@/utils/constants/l
 // import { getOnClick } from '@/tools/components/helper';
 
 export default createComponent(() => {
-    // const dispatch = useDispatch()
+    const dispatch = useDispatch()
 
 
     const learningTotal = useLearningTotal()
@@ -29,6 +29,8 @@ export default createComponent(() => {
     const isShowingAnswer = screen == SHOWING_ANSWER
     const isGuessingOrShowingAnswer = isGuessing || isShowingAnswer
     const isResults = screen == RESULTS
+
+    const onSkipLearning = () => dispatch(actions.learning.skipLearning({}))
 
 
     return (
@@ -54,7 +56,7 @@ export default createComponent(() => {
                         }
                     </StepContent>
                 </Step>
-                <Step className={classNames('ScreenLearningTitleStep',{ active: isGuessingOrShowingAnswer })} >
+                <Step className={classNames('ScreenLearningTitleStep',{ active: isGuessingOrShowingAnswer })} link={isLearning} onClick={onSkipLearning}>
                     <Icon name='question' />
                     <StepContent>
                         <StepTitle className='ScreenLearningTitleStepTitle'>{isGuessing ? "Guessing" : "Answer"}</StepTitle>

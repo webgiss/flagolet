@@ -144,6 +144,15 @@ const slice = createSlice({
             state.stats.total = 0;
             state.stats.correct = 0;
             state.stats.incorrect = 0;
+        },
+        skipLearning(state, action) {
+            state.screen = GUESSING;
+            state.answer = '';
+            state.guessedAnswer = null;
+            state.statusAnswer = null;
+            state.remainingCodes.splice(0);
+            state.remainingCodes.splice(0, 0, ...Object.keys(state.learningData))
+            selectCode(state)
         }
     },
     extraReducers: (builder) => {
@@ -162,6 +171,7 @@ export const {
     applyAnswer,
     nextGuessing,
     acknowledgeResults,
+    skipLearning,
 } = slice.actions;
 
 export default slice
