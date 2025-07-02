@@ -1,8 +1,8 @@
 
 export const filterCountriesByTags = (countries, tagsIncluded, tagsExcluded) => {
     return countries.filter((country) => {
-        const hasIncludedTags = tagsIncluded.every(tag => country.flag.tags.includes(tag));
-        const hasExcludedTags = tagsExcluded.some(tag => country.flag.tags.includes(tag));
+        const hasIncludedTags = tagsIncluded.every(tag => country.flag.tags.includes(tag) || country.tags.includes(tag));
+        const hasExcludedTags = tagsExcluded.some(tag => country.flag.tags.includes(tag) || country.tags.includes(tag));
         return hasIncludedTags && !hasExcludedTags;
     });
 }

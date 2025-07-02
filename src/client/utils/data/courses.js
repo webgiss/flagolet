@@ -1,6 +1,7 @@
 import { BACKDIAGONAL, CROSS, DECORATION, DIAGONAL, EMBLEM, HORIZONTAL_STRIPES, MOON, NORDIC_CROSS, PAN_ARAB_COLORS, PANAFRICAN_COLORS, STAR, TRIANGLE, UNION_JACK, VERTICAL_STRIPES } from '@/utils/constants/flagTags';
 import { countries } from './countries';
 import { createCourse } from './countrieTools';
+import { AFRICA, ASIA, CARIBBEAN, CENTRAL_AMERICA, EUROPE, NORTH_AMERICA, OCEANIA, SOUTH_AMERICA } from '../constants/countryTags';
 
 export const mainCourseDef = {
     id: 'main',
@@ -133,4 +134,97 @@ export const mainCourseDef = {
     ]
 }
 
+export const byContinentCourseDef = {
+    id: 'byContinent',
+    name: { en: 'By Continent', fr: 'Par Continent' },
+    description: {
+        en: 'Learn flags by continent.',
+        fr: 'Apprenez les drapeaux par continent.',
+    },
+    lessons: [
+        {
+            id: 'north-america',
+            name: { en: 'North America', fr: 'Amérique du Nord' },
+            description: {
+                en: 'Learn flags of North American countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Amérique du Nord.',
+            },
+            includedTags: [NORTH_AMERICA],
+            excludedTags: [],
+        },
+        {
+            id: 'central-america',
+            name: { en: 'Central America', fr: 'Amérique Centrale' },
+            description: {
+                en: 'Learn flags of Central American countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Amérique Centrale.',
+            },
+            includedTags: [CENTRAL_AMERICA],
+            excludedTags: [],
+        },
+        {
+            id: 'south-america',
+            name: { en: 'South America', fr: 'Amérique du Sud' },
+            description: {
+                en: 'Learn flags of South American countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Amérique du Sud.',
+            },
+            includedTags: [SOUTH_AMERICA],
+            excludedTags: [],
+        },
+        {
+            id: 'caribbean',
+            name: { en: 'Caribbean', fr: 'Caraïbes' },
+            description: {
+                en: 'Learn flags of Caribbean countries.',
+                fr: 'Apprenez les drapeaux des pays des Caraïbes.',
+            },
+            includedTags: [CARIBBEAN],
+            excludedTags: [],
+        },
+        {
+            id: 'europe',
+            name: { en: 'Europe', fr: 'Europe' },
+            description: {
+                en: 'Learn flags of European countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Europe.',
+            },
+            includedTags: [EUROPE],
+            excludedTags: [],
+        },
+        {
+            id: 'africa',
+            name: { en: 'Africa', fr: 'Afrique' },
+            description: {
+                en: 'Learn flags of African countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Afrique.',
+            },
+            includedTags: [AFRICA],
+            excludedTags: [],
+        },
+        {
+            id: 'asia',
+            name: { en: 'Asia', fr: 'Asie' },
+            description: {
+                en: 'Learn flags of Asian countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Asie.',
+            },
+            includedTags: [ASIA],
+            excludedTags: [],
+        },
+        {
+            id: 'oceania',
+            name: { en: 'Oceania', fr: 'Océanie' },
+            description: {
+                en: 'Learn flags of Oceanian countries.',
+                fr: 'Apprenez les drapeaux des pays d\'Océanie.',
+            },
+            includedTags: [OCEANIA],
+            excludedTags: [],
+        },
+    ]
+}
+
+
 export const mainCourse = createCourse(countries, mainCourseDef)
+export const byContinentCourse = createCourse(countries, byContinentCourseDef)

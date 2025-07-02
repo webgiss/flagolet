@@ -1,4 +1,4 @@
-import { ASIA, CARIBBEAN, EUROPE, SOUTH_AMERICA } from "../constants/countryTags";
+import { AFRICA, ASIA, CARIBBEAN, EUROPE, OCEANIA, SOUTH_AMERICA, CENTRAL_AMERICA, NORTH_AMERICA } from "../constants/countryTags";
 import { NOT_RECTANGULAR, SUN, MOON, VERTICAL_STRIPES, SERRATED, WRITINGS, SQUARE, CROSS, EMBLEM, HORIZONTAL_STRIPES, CIRCLE, BACKDIAGONAL, BIRD, ANIMAL, STAR, DIAGONAL, NORDIC_CROSS, EAGLE, LOSANGE, TRIANGLE, PANAFRICAN_COLORS, DRAGON, SHIELD, TREE, BOOK, GUN, QUARTERED, DIAMOND, CROWN, UNION_JACK, MAPLE_LEAF, PAN_ARAB_COLORS, LION, DECORATION } from "../constants/flagTags";
 import { COUNTRY } from "../constants/flagType";
 
@@ -639,7 +639,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
             fr: "https://fr.wikipedia.org/wiki/Antigua-et-Barbuda",
         },
-        tags: [SOUTH_AMERICA],
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -713,7 +713,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Barbados",
             fr: "https://fr.wikipedia.org/wiki/Barbade",
         },
-        tags: [SOUTH_AMERICA],
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -735,7 +735,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Belize",
             fr: "https://fr.wikipedia.org/wiki/Belize",
         },
-        tags: [SOUTH_AMERICA],
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
