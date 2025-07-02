@@ -1,3 +1,4 @@
+import { ASIA, CARIBBEAN, EUROPE, SOUTH_AMERICA } from "../constants/countryTags";
 import { NOT_RECTANGULAR, SUN, MOON, VERTICAL_STRIPES, SERRATED, WRITINGS, SQUARE, CROSS, EMBLEM, HORIZONTAL_STRIPES, CIRCLE, BACKDIAGONAL, BIRD, ANIMAL, STAR, DIAGONAL, NORDIC_CROSS, EAGLE, LOSANGE, TRIANGLE, PANAFRICAN_COLORS, DRAGON, SHIELD, TREE, BOOK, GUN, QUARTERED, DIAMOND, CROWN, UNION_JACK, MAPLE_LEAF, PAN_ARAB_COLORS, LION, DECORATION } from "../constants/flagTags";
 import { COUNTRY } from "../constants/flagType";
 
@@ -21,6 +22,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Nepal",
             fr: "https://fr.wikipedia.org/wiki/Népal",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -46,6 +48,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/France",
             fr: "https://fr.wikipedia.org/wiki/France",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -71,6 +74,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Qatar",
             fr: "https://fr.wikipedia.org/wiki/Qatar",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -96,6 +100,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Belgium",
             fr: "https://fr.wikipedia.org/wiki/Belgique",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -121,6 +126,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Afghanistan",
             fr: "https://fr.wikipedia.org/wiki/Afghanistan",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -146,6 +152,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Switzerland",
             fr: "https://fr.wikipedia.org/wiki/Suisse",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -171,6 +178,8 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Vatican_City",
             fr: "https://fr.wikipedia.org/wiki/Vatican",
         },
+        tags: [EUROPE],
+        type: COUNTRY,
     },
     {
         name: {
@@ -195,6 +204,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Niger",
             fr: "https://fr.wikipedia.org/wiki/Niger",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -221,6 +231,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Monaco",
             fr: "https://fr.wikipedia.org/wiki/Monaco",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -246,6 +257,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Denmark",
             fr: "https://fr.wikipedia.org/wiki/Danemark",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -271,6 +283,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Gabon",
             fr: "https://fr.wikipedia.org/wiki/Gabon",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -296,6 +309,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Papua_New_Guinea",
             fr: "https://fr.wikipedia.org/wiki/Papouasie-Nouvelle-Guinée",
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -317,6 +331,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
             fr: "https://fr.wikipedia.org/wiki/République_démocratique_du_Congo",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -342,6 +357,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/San_Marino",
             fr: "https://fr.wikipedia.org/wiki/Saint-Marin",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -367,6 +383,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Israel",
             fr: "https://fr.wikipedia.org/wiki/Israël",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -392,6 +409,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Norway",
             fr: "https://fr.wikipedia.org/wiki/Norvège",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -417,6 +435,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Iceland",
             fr: "https://fr.wikipedia.org/wiki/Islande",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -442,6 +461,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Albania",
             fr: "https://fr.wikipedia.org/wiki/Albanie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -467,6 +487,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Andorra",
             fr: "https://fr.wikipedia.org/wiki/Andorre",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -492,6 +513,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Brazil",
             fr: "https://fr.wikipedia.org/wiki/Brésil",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -517,6 +539,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bolivia",
             fr: "https://fr.wikipedia.org/wiki/Bolivie",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -542,6 +565,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/South_Africa",
             fr: "https://fr.wikipedia.org/wiki/Afrique_du_Sud",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -567,6 +591,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Algeria",
             fr: "https://fr.wikipedia.org/wiki/Algérie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -592,6 +617,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Angola",
             fr: "https://fr.wikipedia.org/wiki/Angola",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -613,6 +639,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
             fr: "https://fr.wikipedia.org/wiki/Antigua-et-Barbuda",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -638,6 +665,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Saudi_Arabia",
             fr: "https://fr.wikipedia.org/wiki/Arabie_saoudite",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -663,6 +691,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Austria",
             fr: "https://fr.wikipedia.org/wiki/Autriche",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -684,6 +713,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Barbados",
             fr: "https://fr.wikipedia.org/wiki/Barbade",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -705,6 +735,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Belize",
             fr: "https://fr.wikipedia.org/wiki/Belize",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -730,6 +761,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Benin",
             fr: "https://fr.wikipedia.org/wiki/Bénin",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -755,6 +787,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bhutan",
             fr: "https://fr.wikipedia.org/wiki/Bhoutan",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -780,6 +813,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Myanmar",
             fr: "https://fr.wikipedia.org/wiki/Myanmar",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -805,6 +839,8 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Botswana",
             fr: "https://fr.wikipedia.org/wiki/Botswana",
         },
+        tags: [AFRICA],
+        type: COUNTRY,
     },
     {
         name: {
@@ -825,6 +861,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Burkina_Faso",
             fr: "https://fr.wikipedia.org/wiki/Burkina_Faso",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -850,6 +887,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cameroon",
             fr: "https://fr.wikipedia.org/wiki/Cameroun",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -875,6 +913,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cape_Verde",
             fr: "https://fr.wikipedia.org/wiki/Cape_Verde",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -900,6 +939,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Chile",
             fr: "https://fr.wikipedia.org/wiki/Chili",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -925,6 +965,8 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/China",
             fr: "https://fr.wikipedia.org/wiki/Chine",
         },
+        tags: [ASIA],
+        type: COUNTRY,
     },
     {
         name: {
@@ -949,6 +991,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cyprus",
             fr: "https://fr.wikipedia.org/wiki/Chypre",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -974,6 +1017,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Colombia",
             fr: "https://fr.wikipedia.org/wiki/Colombie",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -999,6 +1043,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/South_Korea",
             fr: "https://fr.wikipedia.org/wiki/Corée_du_Sud",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1024,6 +1069,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Ivory_Coast",
             fr: "https://fr.wikipedia.org/wiki/Côte_d'Ivoire",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1049,6 +1095,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Djibouti",
             fr: "https://fr.wikipedia.org/wiki/Djibouti",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1074,6 +1121,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Egypt",
             fr: "https://fr.wikipedia.org/wiki/Égypte",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1099,6 +1147,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Ecuador",
             fr: "https://fr.wikipedia.org/wiki/Équateur_(pays)",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -1124,6 +1173,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Spain",
             fr: "https://fr.wikipedia.org/wiki/Espagne",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1149,6 +1199,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/The_Gambia",
             fr: "https://fr.wikipedia.org/wiki/Gambie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1170,6 +1221,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Georgia_(country)",
             fr: "https://fr.wikipedia.org/wiki/Géorgie_(pays)",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1195,6 +1247,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Ghana",
             fr: "https://fr.wikipedia.org/wiki/Ghana",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1220,6 +1273,8 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Greece",
             fr: "https://fr.wikipedia.org/wiki/Grèce",
         },
+        tags: [EUROPE],
+        type: COUNTRY,
     },
     {
         name: {
@@ -1244,6 +1299,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Guinea",
             fr: "https://fr.wikipedia.org/wiki/Guinée",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1269,6 +1325,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Equatorial_Guinea",
             fr: "https://fr.wikipedia.org/wiki/Guinée_équatoriale",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1294,6 +1351,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/India",
             fr: "https://fr.wikipedia.org/wiki/Inde",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1319,6 +1377,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Indonesia",
             fr: "https://fr.wikipedia.org/wiki/Indonésie",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1345,6 +1404,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Iraq",
             fr: "https://fr.wikipedia.org/wiki/Irak",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1370,6 +1430,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Italy",
             fr: "https://fr.wikipedia.org/wiki/Italie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1391,6 +1452,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Japan",
             fr: "https://fr.wikipedia.org/wiki/Japon",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1416,6 +1478,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Kenya",
             fr: "https://fr.wikipedia.org/wiki/Kenya",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1441,6 +1504,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Laos",
             fr: "https://fr.wikipedia.org/wiki/Laos",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1466,6 +1530,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Lesotho",
             fr: "https://fr.wikipedia.org/wiki/Lesotho",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1492,6 +1557,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Lebanon",
             fr: "https://fr.wikipedia.org/wiki/Liban",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1517,6 +1583,8 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Madagascar",
             fr: "https://fr.wikipedia.org/wiki/Madagascar",
         },
+        tags: [AFRICA],
+        type: COUNTRY,
     },
     {
         name: {
@@ -1541,6 +1609,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Malawi",
             fr: "https://fr.wikipedia.org/wiki/Malawi",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1566,6 +1635,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Maldives",
             fr: "https://fr.wikipedia.org/wiki/Maldives",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1591,6 +1661,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mali",
             fr: "https://fr.wikipedia.org/wiki/Mali",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1616,6 +1687,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Malta",
             fr: "https://fr.wikipedia.org/wiki/Malte",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1641,6 +1713,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Morocco",
             fr: "https://fr.wikipedia.org/wiki/Maroc",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1667,6 +1740,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mauritius",
             fr: "https://fr.wikipedia.org/wiki/Maurice_(pays)",
         },
+        tags: [AFRICA],
         type: COUNTRY,
 
     },
@@ -1693,6 +1767,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mauritania",
             fr: "https://fr.wikipedia.org/wiki/Mauritanie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1718,6 +1793,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mozambique",
             fr: "https://fr.wikipedia.org/wiki/Mozambique",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1744,6 +1820,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Namibia",
             fr: "https://fr.wikipedia.org/wiki/Namibie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1769,6 +1846,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Uganda",
             fr: "https://fr.wikipedia.org/wiki/Ouganda",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1794,6 +1872,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Pakistan",
             fr: "https://fr.wikipedia.org/wiki/Pakistan",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -1819,6 +1898,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Panama",
             fr: "https://fr.wikipedia.org/wiki/Panama_(pays)",
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -1845,6 +1925,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Netherlands",
             fr: "https://fr.wikipedia.org/wiki/Pays-Bas"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1870,6 +1951,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Peru",
             fr: "https://fr.wikipedia.org/wiki/Pérou",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -1895,6 +1977,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Portugal",
             fr: "https://fr.wikipedia.org/wiki/Portugal",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -1918,6 +2001,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Central_African_Republic",
             fr: "https://fr.wikipedia.org/wiki/R%C3%A9publique_centrafricaine"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1940,6 +2024,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Dominican_Republic",
             fr: "https://fr.wikipedia.org/wiki/R%C3%A9publique_dominicaine",
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -1963,6 +2048,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
             fr: "https://fr.wikipedia.org/wiki/R%C3%A9publique_du_Congo"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -1990,6 +2076,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Czech_Republic",
             fr: "https://fr.wikipedia.org/wiki/R%C3%A9publique_tch%C3%A8que"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2011,6 +2098,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Romania",
             fr: "https://fr.wikipedia.org/wiki/Roumanie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2036,6 +2124,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Russia",
             fr: "https://fr.wikipedia.org/wiki/Russie",
         },
+        tags: [EUROPE, ASIA],
         type: COUNTRY,
     },
     {
@@ -2061,6 +2150,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Rwanda",
             fr: "https://fr.wikipedia.org/wiki/Rwanda",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2086,6 +2176,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
             fr: "https://fr.wikipedia.org/wiki/Saint-Christophe-et-Niévès",
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -2107,6 +2198,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
             fr: "https://fr.wikipedia.org/wiki/Saint-Vincent-et-les-Grenadines",
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -2132,6 +2224,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Senegal",
             fr: "https://fr.wikipedia.org/wiki/Sénégal",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2157,6 +2250,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Serbia",
             fr: "https://fr.wikipedia.org/wiki/Serbie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2186,6 +2280,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Sierra_Leone",
             fr: "https://fr.wikipedia.org/wiki/Sierra_Leone",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2211,6 +2306,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Singapore",
             fr: "https://fr.wikipedia.org/wiki/Singapour",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2240,6 +2336,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Slovakia",
             fr: "https://fr.wikipedia.org/wiki/Slovaquie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2266,6 +2363,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Somalia",
             fr: "https://fr.wikipedia.org/wiki/Somalie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2291,6 +2389,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Suriname",
             fr: "https://fr.wikipedia.org/wiki/Suriname",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -2318,6 +2417,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Eswatini",
             fr: "https://fr.wikipedia.org/wiki/Eswatini"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2343,6 +2443,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Syria",
             fr: "https://fr.wikipedia.org/wiki/Syrie",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2368,6 +2469,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Tanzania",
             fr: "https://fr.wikipedia.org/wiki/Tanzanie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2393,6 +2495,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Chad",
             fr: "https://fr.wikipedia.org/wiki/Tchad",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2418,6 +2521,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Thailand",
             fr: "https://fr.wikipedia.org/wiki/Thaïlande",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2443,6 +2547,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Tunisia",
             fr: "https://fr.wikipedia.org/wiki/Tunisie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2464,6 +2569,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Turkmenistan",
             fr: "https://fr.wikipedia.org/wiki/Turkménistan",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2489,6 +2595,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Turkey",
             fr: "https://fr.wikipedia.org/wiki/Turquie",
         },
+        tags: [EUROPE, ASIA],
         type: COUNTRY,
     },
     {
@@ -2510,6 +2617,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Ukraine",
             fr: "https://fr.wikipedia.org/wiki/Ukraine",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2535,6 +2643,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Uruguay",
             fr: "https://fr.wikipedia.org/wiki/Uruguay",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -2560,6 +2669,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Venezuela",
             fr: "https://fr.wikipedia.org/wiki/Venezuela",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -2585,6 +2695,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Vietnam",
             fr: "https://fr.wikipedia.org/wiki/Vi%C3%AAt_Nam",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2610,6 +2721,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Yemen",
             fr: "https://fr.wikipedia.org/wiki/Y%C3%A9men",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2635,6 +2747,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Zambia",
             fr: "https://fr.wikipedia.org/wiki/Zambie",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2660,6 +2773,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Estonia",
             fr: "https://fr.wikipedia.org/wiki/Estonie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2687,6 +2801,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cambodia",
             fr: "https://fr.wikipedia.org/wiki/Cambodge"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2714,6 +2829,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Argentina",
             fr: "https://fr.wikipedia.org/wiki/Argentine",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -2741,6 +2857,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Guatemala",
             fr: "https://fr.wikipedia.org/wiki/Guatemala"
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -2766,6 +2883,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Palau",
             fr: "https://fr.wikipedia.org/wiki/Palaos",
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -2791,6 +2909,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Poland",
             fr: "https://fr.wikipedia.org/wiki/Pologne",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2816,6 +2935,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Sweden",
             fr: "https://fr.wikipedia.org/wiki/Su%C3%A8de",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2841,6 +2961,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Togo",
             fr: "https://fr.wikipedia.org/wiki/Togo",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -2866,6 +2987,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Finland",
             fr: "https://fr.wikipedia.org/wiki/Finlande",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2891,6 +3013,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Germany",
             fr: "https://fr.wikipedia.org/wiki/Allemagne",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2918,6 +3041,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bahrain",
             fr: "https://fr.wikipedia.org/wiki/Bahre%C3%AFn"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2946,6 +3070,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bangladesh",
             fr: "https://fr.wikipedia.org/wiki/Bangladesh"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -2971,6 +3096,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bulgaria",
             fr: "https://fr.wikipedia.org/wiki/Bulgarie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -2998,6 +3124,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Burundi",
             fr: "https://fr.wikipedia.org/wiki/Burundi"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -3025,6 +3152,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Comoros",
             fr: "https://fr.wikipedia.org/wiki/Comores_(pays)",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -3052,6 +3180,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Costa_Rica",
             fr: "https://fr.wikipedia.org/wiki/Costa_Rica"
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3073,6 +3202,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Grenada",
             fr: "https://fr.wikipedia.org/wiki/Grenade_(pays)",
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3100,6 +3230,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Guyana",
             fr: "https://fr.wikipedia.org/wiki/Guyana"
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3127,6 +3258,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Haiti",
             fr: "https://fr.wikipedia.org/wiki/Ha%C3%AFti"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3154,6 +3286,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Kyrgyzstan",
             fr: "https://fr.wikipedia.org/wiki/Kirghizistan"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3181,6 +3314,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Liechtenstein",
             fr: "https://fr.wikipedia.org/wiki/Liechtenstein"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3208,6 +3342,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Lithuania",
             fr: "https://fr.wikipedia.org/wiki/Lituanie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3235,6 +3370,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Luxembourg",
             fr: "https://fr.wikipedia.org/wiki/Luxembourg"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3262,6 +3398,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Nicaragua",
             fr: "https://fr.wikipedia.org/wiki/Nicaragua"
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3287,6 +3424,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/United_Kingdom",
             fr: "https://fr.wikipedia.org/wiki/Royaume-Uni",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3314,6 +3452,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
             fr: "https://fr.wikipedia.org/wiki/Trinit%C3%A9-et-Tobago"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3339,6 +3478,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Iran",
             fr: "https://fr.wikipedia.org/wiki/Iran",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3364,6 +3504,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mexico",
             fr: "https://fr.wikipedia.org/wiki/Mexique",
         },
+        tags: [NORTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3389,6 +3530,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/El_Salvador",
             fr: "https://fr.wikipedia.org/wiki/Salvador",
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3414,6 +3556,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Paraguay",
             fr: "https://fr.wikipedia.org/wiki/Paraguay",
         },
+        tags: [SOUTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3439,6 +3582,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Vanuatu",
             fr: "https://fr.wikipedia.org/wiki/Vanuatu",
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -3464,6 +3608,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/United_States",
             fr: "https://fr.wikipedia.org/wiki/États-Unis",
         },
+        tags: [NORTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3489,6 +3634,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Liberia",
             fr: "https://fr.wikipedia.org/wiki/Liberia",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -3516,6 +3662,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Marshall_Islands",
             fr: "https://fr.wikipedia.org/wiki/%C3%8Eles_Marshall"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -3543,6 +3690,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
             fr: "https://fr.wikipedia.org/wiki/États_fédérés_de_Micronésie",
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -3570,6 +3718,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Armenia",
             fr: "https://fr.wikipedia.org/wiki/Arm%C3%A9nie"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3597,6 +3746,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Australia",
             fr: "https://fr.wikipedia.org/wiki/Australie"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -3624,6 +3774,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Azerbaijan",
             fr: "https://fr.wikipedia.org/wiki/Azerba%C3%AFdjan"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3651,6 +3802,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bahamas",
             fr: "https://fr.wikipedia.org/wiki/Bahamas"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3676,6 +3828,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Belarus",
             fr: "https://fr.wikipedia.org/wiki/Biélorussie",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3701,6 +3854,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
             fr: "https://fr.wikipedia.org/wiki/Bosnie-Herzégovine",
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3726,6 +3880,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Brunei",
             fr: "https://fr.wikipedia.org/wiki/Brunei",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3749,6 +3904,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Canada",
             fr: "https://fr.wikipedia.org/wiki/Canada"
         },
+        tags: [NORTH_AMERICA],
         type: COUNTRY,
     },
     {
@@ -3776,6 +3932,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/North_Korea",
             fr: "https://fr.wikipedia.org/wiki/Cor%C3%A9e_du_Nord"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3803,6 +3960,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Croatia",
             fr: "https://fr.wikipedia.org/wiki/Croatie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -3830,6 +3988,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cuba",
             fr: "https://fr.wikipedia.org/wiki/Cuba"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3857,6 +4016,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Dominica",
             fr: "https://fr.wikipedia.org/wiki/Dominique_(pays)"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -3880,6 +4040,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/United_Arab_Emirates",
             fr: "https://fr.wikipedia.org/wiki/%C3%89mirats_arabes_unis"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -3907,6 +4068,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Eritrea",
             fr: "https://fr.wikipedia.org/wiki/%C3%89rythr%C3%A9e"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -3934,6 +4096,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Ethiopia",
             fr: "https://fr.wikipedia.org/wiki/%C3%89thiopie"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -3961,6 +4124,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Fiji",
             fr: "https://fr.wikipedia.org/wiki/Fidji"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -3988,6 +4152,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Guinea-Bissau",
             fr: "https://fr.wikipedia.org/wiki/Guin%C3%A9e-Bissau"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4015,6 +4180,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Honduras",
             fr: "https://fr.wikipedia.org/wiki/Honduras"
         },
+        tags: [CENTRAL_AMERICA],
         type: COUNTRY,
     },
     {
@@ -4038,6 +4204,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Hungary",
             fr: "https://fr.wikipedia.org/wiki/Hongrie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4065,6 +4232,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Republic_of_Ireland",
             fr: "https://fr.wikipedia.org/wiki/Irlande_(pays)"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4088,6 +4256,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Cook_Islands",
             fr: "https://fr.wikipedia.org/wiki/%C3%8Eles_Cook"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4111,6 +4280,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Jamaica",
             fr: "https://fr.wikipedia.org/wiki/Jamaïque"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -4138,6 +4308,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Jordan",
             fr: "https://fr.wikipedia.org/wiki/Jordanie"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4165,6 +4336,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Kazakhstan",
             fr: "https://fr.wikipedia.org/wiki/Kazakhstan"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4192,6 +4364,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Kiribati",
             fr: "https://fr.wikipedia.org/wiki/Kiribati"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4219,6 +4392,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Kuwait",
             fr: "https://fr.wikipedia.org/wiki/Koweït"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4246,6 +4420,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Latvia",
             fr: "https://fr.wikipedia.org/wiki/Lettonie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4273,6 +4448,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Libya",
             fr: "https://fr.wikipedia.org/wiki/Libye"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4300,6 +4476,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/North_Macedonia",
             fr: "https://fr.wikipedia.org/wiki/Mac%C3%A9doine_du_Nord"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4327,6 +4504,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Malaysia",
             fr: "https://fr.wikipedia.org/wiki/Malaisie"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4354,6 +4532,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Moldova",
             fr: "https://fr.wikipedia.org/wiki/Moldavie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4377,6 +4556,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Mongolia",
             fr: "https://fr.wikipedia.org/wiki/Mongolie"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4400,6 +4580,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Montenegro",
             fr: "https://fr.wikipedia.org/wiki/Mont%C3%A9n%C3%A9gro"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4427,6 +4608,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Nauru",
             fr: "https://fr.wikipedia.org/wiki/Nauru"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4454,6 +4636,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Nigeria",
             fr: "https://fr.wikipedia.org/wiki/Nigeria"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4478,6 +4661,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Niue",
             fr: "https://fr.wikipedia.org/wiki/Niue"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4501,6 +4685,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/New_Zealand",
             fr: "https://fr.wikipedia.org/wiki/Nouvelle-Z%C3%A9lande"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4528,6 +4713,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Oman",
             fr: "https://fr.wikipedia.org/wiki/Oman"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4555,6 +4741,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Uzbekistan",
             fr: "https://fr.wikipedia.org/wiki/Ouzbékistan"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4581,6 +4768,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/State_of_Palestine",
             fr: "https://fr.wikipedia.org/wiki/État_de_Palestine",
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4608,6 +4796,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Philippines",
             fr: "https://fr.wikipedia.org/wiki/Philippines"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4631,6 +4820,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Saint_Lucia",
             fr: "https://fr.wikipedia.org/wiki/Sainte-Lucie"
         },
+        tags: [CARIBBEAN],
         type: COUNTRY,
     },
     {
@@ -4658,6 +4848,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Solomon_Islands",
             fr: "https://fr.wikipedia.org/wiki/%C3%8Eles_Salomon"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4685,6 +4876,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Samoa",
             fr: "https://fr.wikipedia.org/wiki/Samoa"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4711,6 +4903,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/São_Tomé_and_Príncipe",
             fr: "https://fr.wikipedia.org/wiki/Sao_Tomé-et-Principe",
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4738,6 +4931,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Seychelles",
             fr: "https://fr.wikipedia.org/wiki/Seychelles"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4765,6 +4959,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Slovenia",
             fr: "https://fr.wikipedia.org/wiki/Slovénie"
         },
+        tags: [EUROPE],
         type: COUNTRY,
     },
     {
@@ -4792,6 +4987,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Sudan",
             fr: "https://fr.wikipedia.org/wiki/Soudan"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4819,6 +5015,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/South_Sudan",
             fr: "https://fr.wikipedia.org/wiki/Soudan_du_Sud"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
     {
@@ -4846,6 +5043,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Sri_Lanka",
             fr: "https://fr.wikipedia.org/wiki/Sri_Lanka"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4873,6 +5071,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Tajikistan",
             fr: "https://fr.wikipedia.org/wiki/Tadjikistan"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4900,6 +5099,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/East_Timor",
             fr: "https://fr.wikipedia.org/wiki/Timor_oriental"
         },
+        tags: [ASIA],
         type: COUNTRY,
     },
     {
@@ -4927,6 +5127,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Tonga",
             fr: "https://fr.wikipedia.org/wiki/Tonga"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4950,6 +5151,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Tuvalu",
             fr: "https://fr.wikipedia.org/wiki/Tuvalu"
         },
+        tags: [OCEANIA],
         type: COUNTRY,
     },
     {
@@ -4977,6 +5179,7 @@ export const countries = [
             en: "https://en.wikipedia.org/wiki/Zimbabwe",
             fr: "https://fr.wikipedia.org/wiki/Zimbabwe"
         },
+        tags: [AFRICA],
         type: COUNTRY,
     },
 ]
